@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Tune Deck",
+    "slug": "tune-deck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.yourname.tunedeck",
+      "permissions": ["READ_MEDIA_AUDIO", "READ_EXTERNAL_STORAGE", "FOREGROUND_SERVICE"]
+    },
+    "plugins": [
+      ["expo-media-library", { "photoPermission": false, "isAccessMediaLocationEnabled": false }],
+      "expo-audio"
+    ]
+  }
+}
